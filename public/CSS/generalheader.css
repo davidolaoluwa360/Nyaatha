@@ -1,0 +1,86 @@
+/* rgb(45, 12, 178) */
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  width: 100%;
+}
+
+header .generalcontactdetailshheader{
+  background-color: rgba(0, 0, 0);
+  color: white;
+  padding: .7em.7em;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.masteroutercontainerheaderselector{
+  display: flex;
+  background-color: rgba(210, 210, 210);
+  flex-wrap: wrap;
+  height: 21vh;
+}
+.masteroutercontainerheaderselector nav{
+  margin-left: auto;
+  margin-top: 3.5rem;
+}
+
+.masteroutercontainerheaderselector nav ul{
+  list-style: none;
+  display: inline-flex;
+}
+
+.masteroutercontainerheaderselector nav ul li a:hover{
+  color: rgb(45, 12, 178);
+  cursor: pointer;
+}
+
+.masteroutercontainerheaderselector nav ul li ul li{
+  margin-top: 1em;
+}
+
+.masteroutercontainerheaderselector nav ul li ul{
+  display: none;
+  background-color: white;
+  margin-top: .6em;
+  margin-left: -5em;
+}
+
+.masteroutercontainerheaderselector nav ul li:hover ul{
+  display: block;
+  margin-right: -10em;
+  cursor: pointer;
+}
+
+.masteroutercontainerheaderselector nav ul li ul li a:hover{
+  background-color: rgb(45, 12, 178);
+  color: white;
+  width: 30vw;;
+}
+
+.masteroutercontainerheaderselector nav ul li a{
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 2.6em;
+}
+
+header img{
+  width: 50%;
+  height: 20vh;
+  border-radius: 60px;
+}
+
+.leftheader{
+  margin-left: .4em;
+}
