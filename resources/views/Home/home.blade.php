@@ -169,31 +169,31 @@
   <section class="contactusoutergeneralcontainer">
       <div class='contactusheadertextselector'>
         <span>Make No Delay In Connecting With Us</span>
-        <h1>Contact us</h1>
+        <h1 class='contactustextcolor'>Contact us</h1>
       </div>
     <div class="contactusgeneralinnercontainerselector">
     <div class='leftcontactus'>
         <aside>
-            <span></span>
-            <span></span>
-        </aside>
+            <label class="fas fa-id-card-alt"><span class='leftcontainertitle'>Call Us</span></label>
+            <span>Telephone: +254722241382</span>
+        </aside><br><br>
 
         <aside>
-            <span></span>
-            <span></span>
-        </aside>
+            <label class="fas fa-envelope"><span class='leftcontainertitle'>Email Us</span></label>
+            <span>info@nyaathafunds.org</span>
+        </aside><br><br>
 
         <aside>
-            <span></span>
-            <span></span>
-        </aside>
+           <label class="fas fa-id-card-alt"><span class='leftcontainertitle'>Address</span></label>
+            <span>P.O. Box 26059 - 00504, Nairobi Kenya.</span>
+        </aside><br><br>
     </div>
     <div class='rightcontactus'>
         <form action='' method='post'>
-            <input type='text' required placeholder='Name' name='name'>
-            <input type='email' required placeholder='Email' name='mail'><br><br>
-            <input type='text' required placeholder='Subject' name='subject'><br><br>
-            <textarea></textarea><br><br>
+            <input type='text' required placeholder='Name' name='name' class='aligntogether'>
+            <input type='email' required placeholder='Email' name='mail' class='aligntogether'><br><br>
+            <input type='text' required placeholder='Subject' name='subject' class='subject'><br><br>
+            <textarea name='message'>Message</textarea><br><br>
             <input type='submit' name='submit' value='Send Message'>
         </form>
     </div>
