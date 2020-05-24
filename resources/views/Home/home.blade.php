@@ -153,12 +153,30 @@
       <div class='Ourpartnersheadertextselector'>
         <h1>OUR PARTNERS</h1>
       </div>
-    <div class="Ourpartnersinnergeneralcontainer"></div>
+    <div class="Ourpartnersinnergeneralcontainer">
     <div class='Dpartercontainer'>
-        <aside><span>Pulse Healthcare</span></aside>
-        <aside><span>Diomira Foundation</span></aside>
-        <aside><span>Lorcan Investments</span></aside>
-        <aside><span>Aises Academy</span></aside>
+        <div><span>Pulse Healthcare</span></div>
+        <div><span>Diomira Foundation</span></div>
+        <div><span>Lorcan Investments</span></div>
+        <div><span>Aises Academy</span></div>
+    </div>
+    </div>
+  </section>
+@endsection
+
+
+@section('contactus layer')
+  <section class="Ourpartnersoutergeneralcontainer">
+      <div class='Ourpartnersheadertextselector'>
+        <h1>OUR PARTNERS</h1>
+      </div>
+    <div class="Ourpartnersinnergeneralcontainer">
+    <div class='Dpartercontainer'>
+        <div><span>Pulse Healthcare</span></div>
+        <div><span>Diomira Foundation</span></div>
+        <div><span>Lorcan Investments</span></div>
+        <div><span>Aises Academy</span></div>
+    </div>
     </div>
   </section>
 @endsection

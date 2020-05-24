@@ -200,20 +200,24 @@
 .Ourpartnersoutergeneralcontainer{
     background-color: rgb(245, 245, 245);
     width:100%;
-    min-height: 15vh;
+    min-height: 70vh;
     max-height: 100vh;
-    margin-top: 7em;
+    margin-top: 5em;
 }
 
 .Ourpartnersinnergeneralcontainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 2em;
 }
 
 .Dpartercontainer{
-    min-height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .Ourpartnersheadertextselector{
@@ -223,13 +227,23 @@
     align-items: center;
     flex-wrap: wrap;
     color: rgb(45, 12, 178);
+    height: 10vh;
 }
 
-.Dpartercontainer aside{
+.Dpartercontainer div{
     background-color: white;
     color: rgb(45, 12, 178);
     width: 30%;
-    min-height: 25vh;
+    height: 22vh;
     font-weight: bolder;
-    font-size: 1.7rem;;
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: .7em;
 }
+
+/* --------------------------------------------------------------------------- */
+
+/* ---------------------- contact us styling start from here -------------------- */
+
