@@ -166,16 +166,36 @@
 
 
 @section('contactus layer')
-  <section class="Ourpartnersoutergeneralcontainer">
-      <div class='Ourpartnersheadertextselector'>
-        <h1>OUR PARTNERS</h1>
+  <section class="contactusoutergeneralcontainer">
+      <div class='contactusheadertextselector'>
+        <span>Make No Delay In Connecting With Us</span>
+        <h1>Contact us</h1>
       </div>
-    <div class="Ourpartnersinnergeneralcontainer">
-    <div class='Dpartercontainer'>
-        <div><span>Pulse Healthcare</span></div>
-        <div><span>Diomira Foundation</span></div>
-        <div><span>Lorcan Investments</span></div>
-        <div><span>Aises Academy</span></div>
+    <div class="contactusgeneralinnercontainerselector">
+    <div class='leftcontactus'>
+        <aside>
+            <span></span>
+            <span></span>
+        </aside>
+
+        <aside>
+            <span></span>
+            <span></span>
+        </aside>
+
+        <aside>
+            <span></span>
+            <span></span>
+        </aside>
+    </div>
+    <div class='rightcontactus'>
+        <form action='' method='post'>
+            <input type='text' required placeholder='Name' name='name'>
+            <input type='email' required placeholder='Email' name='mail'><br><br>
+            <input type='text' required placeholder='Subject' name='subject'><br><br>
+            <textarea></textarea><br><br>
+            <input type='submit' name='submit' value='Send Message'>
+        </form>
     </div>
     </div>
   </section>
