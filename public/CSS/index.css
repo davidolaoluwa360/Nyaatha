@@ -194,3 +194,42 @@
   background-color:  rgb(45, 12, 178);
   color: white;
 }
+/* ------------------------------------------------------- */
+
+/* --------------------- ---------------- Our partners styling start from here  ---------------------------------- */
+.Ourpartnersoutergeneralcontainer{
+    background-color: rgb(245, 245, 245);
+    width:100%;
+    min-height: 15vh;
+    max-height: 100vh;
+    margin-top: 7em;
+}
+
+.Ourpartnersinnergeneralcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Dpartercontainer{
+    min-height: 70%;
+}
+
+.Ourpartnersheadertextselector{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: rgb(45, 12, 178);
+}
+
+.Dpartercontainer aside{
+    background-color: white;
+    color: rgb(45, 12, 178);
+    width: 30%;
+    min-height: 25vh;
+    font-weight: bolder;
+    font-size: 1.7rem;;
+}

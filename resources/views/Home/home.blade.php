@@ -147,3 +147,18 @@
     </div>
   </section>
 @endsection
+
+@section('ourpartners')
+  <section class="Ourpartnersoutergeneralcontainer">
+      <div class='Ourpartnersheadertextselector'>
+        <h1>OUR PARTNERS</h1>
+      </div>
+    <div class="Ourpartnersinnergeneralcontainer"></div>
+    <div class='Dpartercontainer'>
+        <aside><span>Pulse Healthcare</span></aside>
+        <aside><span>Diomira Foundation</span></aside>
+        <aside><span>Lorcan Investments</span></aside>
+        <aside><span>Aises Academy</span></aside>
+    </div>
+  </section>
+@endsection

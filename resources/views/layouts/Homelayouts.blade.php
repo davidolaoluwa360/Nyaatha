@@ -4,7 +4,7 @@
         <meta http-equiv="content-type" type='html/text' charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>@yield('title')</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="{{URL::to('CSS/style.css')}}">
+        <link rel="stylesheet" type="text/css" media="screen" href="{{URL::to('CSS/index.css')}}">
         <link rel="stylesheet" type="text/css" media="screen" href="{{URL::to('CSS/generalheader.css')}}">
         <script src="https://kit.fontawesome.com/f7712776f7.js" crossorigin="anonymous"></script>
     </head>
@@ -25,6 +25,10 @@
 
       <div class="container">
         @yield('nyaathaimage')
+      </div>
+
+      <div class="container">
+        @yield('ourpartners')
       </div>
 
       @include('partials.masterfooter')
