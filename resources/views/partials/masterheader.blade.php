@@ -10,21 +10,15 @@
   </div>
   <div class="masteroutercontainerheaderselector">
     <div class="leftheader headerlogo">
-      <img src="{{URL::to('Images/Nyaata-logo.png')}}" alt="Nyaathalogo">
+      <a href="{{route('user.home.view')}}"><img src="{{URL::to('Images/Nyaata-logo.png')}}" alt="Nyaathalogo"></a>
     </div>
       <nav class="rightheader">
         <ul>
-          <li><a>HOME</a></li>
-          <li><a>WHO WE SERVE<label class="fas fa-plus"></label></a>
-            <ul>
-              <li><a>A.S.E Nyaatha Education Endowment</a></li>
-              <li><a>Target Groups</a></li>
-              <li><a>Nyaatha A Ray Of Hope</a></li>
-            </ul>
-          </li>
+          <li><a href="{{route('user.home.view')}}">HOME</a></li>
+          <li><a href="{{route('Who.we.are.view')}}" target='_self'>WHO WE SERVE</label></a><li>
           <li><a>TESTIMONIALS</a></li>
           <li><a>PROJECTS</a></li>
-          <li><a>DONATE</a></li>
+          <li><a href="{{route('Donate.view')}}">DONATE</a></li>
         </ul>
       </nav>
   </div>

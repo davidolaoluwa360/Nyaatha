@@ -323,6 +323,11 @@
     font-size: 1.2em;
 }
 
+.rightcontactus form label{
+    font-weight: bolder;
+}
+
+
 .rightcontactus form textarea{
     width: 38.5vw;
     height: 19vh;

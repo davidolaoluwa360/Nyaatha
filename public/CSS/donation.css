@@ -1,0 +1,85 @@
+.donatemainheaderselector{
+    background-color: rgb(76, 76, 76);
+    width: 100%;
+    height: 40vh;
+    margin-top: 10em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.donateinnergeneralcontainerselector{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4em;
+}
+
+
+.donateleftbottomcontainerselector{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.donateleftcontainer{
+    width: 40%;
+}
+
+.donateleftcontainer form img{
+    width: 60%;
+    height: 15vh;
+}
+
+.donateleftcontainer form input{
+    width: 23vw;
+    height: 5vh;
+}
+
+.donateleftcontainer form input[type='submit']{
+    background-color: rgb(45, 12, 178);;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+
+.donaterightcontainer{
+    width: 40%;
+}
+
+.donateleftcontainer form span{
+    color: red;
+}
+
+.donateleftcontainer form label{
+    font-weight: bolder;
+}
+
+.donaterightbottomcontainerselector img{
+    width: 90%;
+    height: 30vh;
+}
+
+.followus{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.donatemainheaderselectorhead1{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.donatemainheaderselectorhead2{
+    font-size: 1.2em;
+}
+
+.donaterightcontainer .donaterightbottomcontainerselector{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
