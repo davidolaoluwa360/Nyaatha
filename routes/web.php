@@ -24,3 +24,11 @@ Route::get('/Nyaatha.donate', function(){
 Route::get('/Whoweserve', function(){
     return view('Who we serve.index');
 })->name('Who.we.are.view');
+
+Route::get('/Nyaatha.project', function(){
+    return view('Project.index');
+})->name('nyaatha.project');
+
+Route::get('/Nyaatha.testimonial', function(){
+    return view('Testimonial.index');
+})->name('nyaatha.testimonial.view');

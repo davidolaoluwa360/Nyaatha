@@ -7,10 +7,10 @@
             <h1>Contact Us</h1>
             <div class='Dcontactusleftinnercontainer'>
                 <ul>
-                    <li class="fas fa-street-view"><a>P.O. Box 26059 - 00504, Nairobi Kenya.</a></li>
-                    <li class="fas fa-phone"><a href='Tel:+254722241382'>+254722241382</a></li>
-                    <li class="fas fa-envelope-square"><a href='mail:info@nyaathafunds.org'>info@nyaathafunds.org</a></li>
-                </ul>
+                    <li class="fas fa-street-view"><a>P.O. Box 26059 - 00504, Nairobi Kenya.</a></li><br>
+                    <li class="fas fa-phone"><a href='Tel:+254722241382'>+254722241382</a></li><br>
+                    <li class="fas fa-envelope-square"><a href='mail:info@nyaathafunds.org'>info@nyaathafunds.org</a></li><br>
+                </ul><br>
                 <a><i class="fab fa-facebook-f"></i></a>
                 <a><i class="fab fa-instagram"></i></a>
                 <a><i class="fas fa-envelope-square"></i></a>

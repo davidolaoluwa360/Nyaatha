@@ -1,0 +1,59 @@
+/* dark white: rgb(245, 245, 245)
+    blue: rgb(45, 12, 178)
+    charcoal like: rgb(76, 76, 76)   */
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.ourprojectmainheaderselector{
+    background-color: rgb(76, 76, 76);
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 40vh;
+}
+
+.ourprojectinnergeneralcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3em;
+}
+
+.ourprojectinnergeneralcontainer h1{
+    color: rgb(45, 12, 178);
+    text-align: center;
+}
+
+.ourprojectoutergeneralcontainer{
+    margin-top: 10em;
+}
+
+.ourprojectinnergeneralcontainer .farmingdescription{
+    width: 45%;
+    background-color: white;
+}
+
+.ourprojectinnergeneralcontainer .farmingimage{
+    background-color: white;
+    width: 45%;
+}
+
+.ourprojectinnergeneralcontainer .farmingimage img{
+    width: 100%;
+    height: 70vh;
+}
+
+.projectbolderfontlarge{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.projectnormalfontmedium{
+    font-size: 1.2em;
+}

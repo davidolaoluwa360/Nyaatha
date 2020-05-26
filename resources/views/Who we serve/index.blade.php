@@ -5,7 +5,7 @@
 @section('whoweserve')
     <section class='whoweservegeneraloutercontainer'>
         <div class='whoweservemainheaderselector'>
-            <span class='whoweserveboldlargefont'>NYAATA EDUCATION ENDOWMENT FUND</span>
+            <span class='whoweserveboldlargefont'>NYAATHA EDUCATION ENDOWMENT FUND</span>
             <span class='whoweserveboldmediumfont'>Home/Who We Serve</span>
         </div>
         <div class='whowearegeneralinnercontainerselector'>

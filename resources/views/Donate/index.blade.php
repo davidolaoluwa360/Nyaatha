@@ -5,7 +5,7 @@
 @section('donateview')
     <section class='donateoutergeneralcontainer'>
     <div class='donatemainheaderselector'>
-                <span class='donatemainheaderselectorhead1'>NYAATA EDUCATION ENDOWMENT FUND</span>
+                <span class='donatemainheaderselectorhead1'>NYAATHA EDUCATION ENDOWMENT FUND</span>
                 <span class='donatemainheaderselectorhead2'>Home/Donate</span>
             </div>
         <div class='donateinnergeneralcontainerselector'>

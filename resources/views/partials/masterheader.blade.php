@@ -16,8 +16,8 @@
         <ul>
           <li><a href="{{route('user.home.view')}}">HOME</a></li>
           <li><a href="{{route('Who.we.are.view')}}" target='_self'>WHO WE SERVE</label></a><li>
-          <li><a>TESTIMONIALS</a></li>
-          <li><a>PROJECTS</a></li>
+          <li><a href="{{route('nyaatha.testimonial.view')}}">TESTIMONIALS</a></li>
+          <li><a href="{{route('nyaatha.project')}}">PROJECTS</a></li>
           <li><a href="{{route('Donate.view')}}">DONATE</a></li>
         </ul>
       </nav>

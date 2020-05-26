@@ -1,0 +1,64 @@
+/* dark white: rgb(245, 245, 245)
+    blue: rgb(45, 12, 178)
+    charcoal like: rgb(76, 76, 76)   */
+
+body{
+    background-color: rgb(245, 245, 245);
+}
+
+.testimonialheadermainselector{
+    background-color: rgb(76, 76, 76) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+}
+
+.testimonialbolderfontlarge{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.testimonialnormalfontmedium{
+    font-size: 1.2em;
+}
+
+.Dtestionial{
+    display: flex;
+    justify-content: center;
+}
+
+.testifierImage{
+    width: 15%;
+}
+
+.tesfiernamebold{
+    font-weight: bolder;
+}
+
+.testifierwords{
+    margin-left: .7em;
+}
+
+.testifierImage img{
+    border-radius: 80px;
+    width: 100%;
+    height: 30vh;
+}
+
+.testifierwords{
+    width: 50%;
+}
+
+
+.testimonialgeneraloutercontainer{
+    margin-top: 10em;
+}
+
+
+.testimonialinnergeneralcontainer{
+    margin-top: 3em;
+}
