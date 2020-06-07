@@ -11,8 +11,23 @@
 
         <div class='ourprojectinnergeneralcontainer'>
             <div class='farmingimage'>
-                <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.29 PM.jpeg')}}" alt='Nyaathafarming'>
+                <aside>
+                    <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.29 PM.jpeg')}}" alt='Nyaathafarming'>
+                </aside>
+
+                <aside>
+                    <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.32 PM (1).jpeg')}}">
+                </aside>
+                
+                <aside>
+                    <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.22 PM.jpeg')}}">
+                </aside>
+
+                <aside>
+                    <img src="{{URL::to('Images/poultry.png')}}" alt='Nyaatha-poultry'>
+                </aside>
             </div>
+
             <div class='farmingdescription'>
                 <h1>Farm projects</h1>
                 <p>Farming is the only project that is currently being pursued, and there is

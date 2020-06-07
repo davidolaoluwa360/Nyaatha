@@ -6,15 +6,18 @@
     <section class='donateoutergeneralcontainer'>
     <div class='donatemainheaderselector'>
                 <span class='donatemainheaderselectorhead1'>NYAATHA EDUCATION ENDOWMENT FUND</span>
-                <span class='donatemainheaderselectorhead2'>Home/Donate</span>
-            </div>
+                <span class='donatemainheaderselectorhead2'>Home / Donate</span>
+    </div>
+
         <div class='donateinnergeneralcontainerselector'>
             <div class='donateleftcontainer'>
+
                 <div class='donatelefttopcontainerselector'>
                     <h1>Donate</h1>
                     <p>We need your help to make a difference in the lives of disadvantaged children.
                         It is the sum of many small efforts that often results in great success.</p>
                 </div>
+
                 <div class='donateleftbottomcontainerselector'>
                     <h1>MAKE A DONATION</h1>
                     <form>
@@ -32,6 +35,7 @@
                     </form>
                 </div>
             </div>
+
             <div class='donaterightcontainer'>
                 <div class='donaterighttopcontainerselector'>
                     <h1>Spread The Word</h1>
@@ -39,8 +43,9 @@
                         There’s no better way to make an impact than to become an active advocate yourself.
                          Join now and make an impact!</p>
                 </div>
+
                 <div class='donaterightbottomcontainerselector'>
-                    <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.16 PM.jpeg')}}">
+                    <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.16 PM.jpeg')}}" data-aos='fade-in'>
                     <h1>HELP US REACH OUT TO SPONSORS</h1>
                     <p>We seek to build an educational foundation for disadvantaged children by mobilizing resources through
                     sincere partnerships with well-wishers and growing the funds by meaningful and appropriate investments, to

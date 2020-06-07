@@ -6,10 +6,6 @@
     margin-top: 10em;
 }
 
-body{
-    background-color: rgb(245, 245, 245);
-}
-
 .whoweservemainheaderselector{
     background-color: rgb(76, 76, 76) ;
     display: flex;
@@ -23,7 +19,7 @@ body{
 }
 
 .whoweserveboldlargefont{
-    font-size: 2rem;
+    font-size: 2em;
     font-weight: bolder;
 }
 
@@ -53,6 +49,7 @@ body{
     width: 60%;
     background-color: white;
     flex-direction: column;
+    padding: .9em .9em;
 }
 
 .Aligntogetherwhoweareselector{
@@ -66,9 +63,33 @@ body{
 .Aligntogetherwhoweareselector .whoweservegroups{
     width: 30%;
     background-color: white;
+    padding: .9em .9em;
 }
 
 .Aligntogetherwhoweareselector .whoweservegroups h1{
     text-align: center;
     color: rgb(45, 12, 178);
 }
+
+/* =========================================== who we serve media query ======================= */
+@media screen and (max-width: 950px){
+    .Aligntogetherwhoweareselector{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Aligntogetherwhoweareselector .whoweservegroups{
+        width: 87%;
+        margin-top: .8em;
+    }
+
+    .whowearegeneralinnercontainerselector .Dwhoweare{
+        width: 87%;
+    }
+
+    .whoweservemainheaderselector{
+        text-align: center;
+    }
+}
+/* ============================================================================================== */
