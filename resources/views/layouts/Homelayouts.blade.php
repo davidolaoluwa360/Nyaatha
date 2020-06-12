@@ -11,7 +11,7 @@
         <link rel='icon' href="{{URL::to('Images/Nyaata-logo.png')}}">
     </head>
     <body>
-      
+
       <div class='container'>
         @include('partials.masterheader')
       </div>
@@ -36,6 +36,10 @@
           @yield('ourleadership')
       </div>
 
+      <div class='container'>
+        @yield('our-leadership-modal-pop-up')
+      </div>
+
       <div class="container">
         @yield('ourpartners')
       </div>
@@ -46,7 +50,7 @@
 
       @include('partials.masterfooter')
     </body>
-    <script type='text/javascript' src="{{URL::to('JS/home.js')}}"></script>
+    <script type='text/javascript' src="{{URL::to('JS/Ourgeneral.js')}}"></script>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>

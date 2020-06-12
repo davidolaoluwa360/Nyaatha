@@ -10,8 +10,8 @@
         </div>
         <div class='testimonialinnergeneralcontainer'>
 
-            <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='Dtestionial' style='overflow: hidden'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-once='true'>
                 <span class='tesfiernamebold'>John Kan’gethe</span>
                 <p>My name is John Kang’ethe, a third-year student at Kenyatta University,
                     pursuing a degree course in Community Resource Management and Extension.
@@ -51,7 +51,7 @@
                     </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='900' data-aos-once='true'>
                 <span class='tesfiernamebold'>Moses Njeru</span>
                 <p>My name is Moses Njeru, one of the Kwetu Home of Peace reformed old boys.
                     I was rescued from the harsh streets of Nairobi by a social worker from Kwetu
@@ -67,7 +67,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='800' data-aos-once='true'>
                 <span class='tesfiernamebold'>Elicah N.W</span>
                     <p>My encounter with sponsorship,</p>
                     <p>It all started way back in 2003 when I met Jenny and her sister Sue
@@ -100,7 +100,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='700' data-aos-once='true'>
                 <span class='tesfiernamebold'>Kipas Nadupoi Shrine</span>
                     <p>I am from a very poor family where my parents separated long time ago, later my mother
                      who was taking care of us passed on when I was in class four. I jointed form one
@@ -113,7 +113,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='600' data-aos-once='true'>
                 <span class='tesfiernamebold'>Ezra Kiprop</span>
                     <p>My name is Ezra Kiprop, I am coming from a humble family background, my mother is
                      mentally abnormal, my father is herding sheep at the church and my family is
@@ -135,7 +135,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='500' data-aos-once='true'>
                 <span class='tesfiernamebold'>Brian Kamau</span>
                     <p>I was rescued from the streets in the year 2012, underwent rehabilitation
                         and joined school while in class 6. I learnt the whole of primary school in
@@ -148,7 +148,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='400' data-aos-once='true'>
                 <span class='tesfiernamebold'>Daniel K. Mageto</span>
                     <p>I went through rehabilitation for two years during my primary school.
                         In class 8 final exams, I managed to score a good mark was desperate since
@@ -161,7 +161,7 @@
             </div>
 
             <div class='Dtestionial'>
-            <div class='testifierwords' data-aos='fade-right'>
+            <div class='testifierwords' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='300' data-aos-once='true'>
                 <span class='tesfiernamebold'>Delvis Kabwoya</span>
                     <p>I am Delvis Kabwoya from Kwetu Home of Peace, and I would like to congratulate
                         you for the support you have shown to me since I started my high school.

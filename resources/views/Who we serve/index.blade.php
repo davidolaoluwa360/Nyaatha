@@ -9,7 +9,7 @@
             <span class='whoweserveboldmediumfont'>Home / Who We Serve</span>
         </div>
         <div class='whowearegeneralinnercontainerselector'>
-            <div class='Dwhoweare' data-aos='fade-right'>
+            <div class='Dwhoweare' data-aos='fade-right' data-aos-duration='600px' data-aos-once='true'>
                 <h1>Who We Serve</h1>
                 <p>The Assumption Sisters Of Eldoret (Nyaatha Foundation) have worked with the street program for several years
                      however the Nyaatha is the initiative of the assumption sisters of Eldoret
@@ -26,7 +26,7 @@
             </div>
 
             <div class='Aligntogetherwhoweareselector'>
-                <div class='whoweservegroups' data-aos='fade-right'>
+                <div class='whoweservegroups' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='400' data-aos-once='true'>
                     <h1>A.S.E. Nyaatha Education Endowent</h1>
                     <p>Majority of the people in the communities we serve live below the poverty line.
                         They only get what is barely sufficient for their daily survival, which has contributed
@@ -38,7 +38,7 @@
                          but also from good wishers.</p>
                 </div>
 
-                <div class='whoweservegroups' data-aos='fade-right'>
+                <div class='whoweservegroups' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='300' data-aos-once='true'> 
                     <h1>Target Groups</h1>
                     <p>Most of the young people we meet both in church, on the streets and in the community are unable
                         to meet their educational needs and personal effects. The majority of the populations we serve
@@ -46,7 +46,7 @@
                         that contributed many children being left by their parents. Whose output cannot sustain the family
                          as well as undertaking the caring? The need to reach these young people is so great.</p>
                 </div>
-                <div class='whoweservegroups' data-aos='fade-right'>
+                <div class='whoweservegroups' data-aos='fade-right' data-aos-duration='600px' data-aos-delay='200' data-aos-once='true'>
                     <h1>Nyaatha Ray Of Hope</h1>
                     <p>The result of the Fund is to empower the disadvantaged children
                         and give them a Ray of Hope through the education to be able to stand

@@ -22,17 +22,17 @@
         </div>
 
         <div class="top-small-content">
-          <p>Nyaatha which means Mother of Mercy is a name given to Blessed Sr. Irene Stefani, 
-              a member of the congregation of Consolata Sisters of the Catholic Church 
+          <p>Nyaatha which means Mother of Mercy is a name given to Blessed Sr. Irene Stefani,
+              a member of the congregation of Consolata Sisters of the Catholic Church
               who worked among the people of Central part of Kenya. Nyaatha was given because of her
-                charitable work among the poor, the afflicted and the sick that she served with a 
+                charitable work among the poor, the afflicted and the sick that she served with a
                 smile in the early 1900s. She became a Ray of Hope for them.</p>
 
-          <p>Her work inspired the congregation of the Assumption Sisters of Eldoret (A.S.E.), 
-              Kenya. Through the initiative of one of the members Sr. Angela Adhiambo A.S.E., 
-              a trust fund by the name Nyaatha Education Endowment Fund (N.E.E.F.) was founded 
-              in July 2015 to provide for the post-primary educational needs of the disadvantaged 
-              children transitioning from rehabilitation centres; those from disparate backgrounds 
+          <p>Her work inspired the congregation of the Assumption Sisters of Eldoret (A.S.E.),
+              Kenya. Through the initiative of one of the members Sr. Angela Adhiambo A.S.E.,
+              a trust fund by the name Nyaatha Education Endowment Fund (N.E.E.F.) was founded
+              in July 2015 to provide for the post-primary educational needs of the disadvantaged
+              children transitioning from rehabilitation centres; those from disparate backgrounds
               and girls at risk.</p>
 
             <p>Her work inspired the congregation of the Assumption Sisters of Eldoret (A.S.E.), Kenya. Through the initiative of one of the members Sr. Angela Adhiambo A.S.E., a trust fund by the name Nyaatha Education Endowment Fund (N.E.E.F.) was founded in July 2015 to provide for the post-primary educational needs of the disadvantaged children transitioning from rehabilitation centres; those from disparate backgrounds and girls at risk.</p>
@@ -106,7 +106,7 @@
           <span class="number-bold">350k+</span>
           <span>Lives Impacted</span>
         </aside>
-        
+
         <aside data-aos='fade-in' data-aos-duration='600' data-aos-delay='500' data-aos-once='true'>
           <i class="fas fa-money-check-alt"></i>
           <span class="number-bold">450k+</span>
@@ -145,7 +145,7 @@
           <button class="Workshops-filter">Workshops</button>
         </div>
       </div>
-      
+
       <div class="DGallery">
 
       <div class="Dgallery-inner-container" style='overflow: hidden'>
@@ -162,11 +162,11 @@
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.20 PM.jpeg')}}">
         </aside>
 
-        <aside data-aos='fade-up' class='showall none' data-aos-duration='600' data-aos-delay='600' data-aos-once='true'>
+        <aside data-aos='fade-up' class='showall' data-aos-duration='600' data-aos-delay='600' data-aos-once='true'>
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.22 PM.jpeg')}}">
         </aside>
 
-        <aside data-aos='fade-in' class='showall training none' data-aos-duration='600' data-aos-delay='500' data-aos-once='true'>
+        <aside data-aos='fade-in' class='showall training' data-aos-duration='600' data-aos-delay='500' data-aos-once='true'>
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.28 PM.jpeg')}}">
         </aside>
 
@@ -174,7 +174,7 @@
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.29 PM.jpeg')}}">
         </aside>
 
-        <aside data-aos='fade-right' class='showall none' data-aos-duration='600' data-aos-delay='300' data-aos-once='true'>
+        <aside data-aos='fade-right' class='showall' data-aos-duration='600' data-aos-delay='300' data-aos-once='true'>
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.32 PM (1).jpeg')}}">
         </aside>
 
@@ -182,7 +182,7 @@
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.26.32 PM.jpeg')}}">
         </aside>
 
-        <aside data-aos='fade-right' class='showall none' data-aos-duration='600' data-aos-delay='100' data-aos-once='true'>
+        <aside data-aos='fade-right' class='showall' data-aos-duration='600' data-aos-delay='100' data-aos-once='true'>
             <img src="{{URL::to('Images/WhatsApp Image 2020-05-18 at 8.27.54 PM.jpeg')}}">
         </aside>
     </div>
@@ -197,41 +197,42 @@
 
         <div class='our-leadership-header-selector'>
             <span class='program-data-stats-header-bold'>
-                Our Teams
+                Our Leadership
             </span>
         </div>
 
         <div class='our-leadership-general-inner-container'>
-            
-            <div class='Dleadership'>
 
-                <aside class='team-image'>
-                  <div class='our-leadership-images'>
+            <div class='Dleadership' style='overflow: hidden'>
+
+                <aside class='team-image' data-aos='fade-in' data-aos-duration='600' data-aos-once='true'>
+                  <div class='our-leadership-images first-leadership-aside'>
                     <img src="{{URL::to('Images/slider1.jpeg')}}">
                   </div>
 
-                  <div class='Dleadership-names'>
+                  <div class='Dleadership-names first-leadership-aside'>
                       <span>Phillip Simiyu Wandibba</span><br>
                       <span>Chairman ASE</span>
                   </div>
                 </aside>
-                
-                <aside class='team-image'>
-                  <div class='our-leadership-images'>
-                    <img src="{{URL::to('Images/Gregoire Piller.jpg')}}" alt='Gregoire Piller'>
-                  </div>
 
-                    <div class='Dleadership-names'>
+                <aside class='team-image' data-aos='fade-right' data-aos-duration='600' data-aos-delay='400' data-aos-once='true'>
+                    <div class='our-leadership-images second-leadership-aside'>
+                        <img src="{{URL::to('Images/Gregoire Piller.jpg')}}" alt='Gregoire Piller'>
+                    </div>
+
+                    <div class='Dleadership-names second-leadership-aside'>
                         <span>Gregoire Piller</span><br>
                         <span>Vice chairperson</span>
                     </div>
                 </aside>
 
-                <aside class='team-image'>
-                <div class='our-leadership-images'>
-                  <img src="{{URL::to('Images/Millycent Aoko.jpg')}}" alt='Millycent Aoko'>
-                </div>
-                    <div class='Dleadership-names'>
+                <aside class='team-image' data-aos='fade-right' data-aos-duration='600' data-aos-delay='300' data-aos-once='true'>
+                    <div class='our-leadership-images third-leadership-aside'>
+                        <img src="{{URL::to('Images/Millycent Aoko.jpg')}}" alt='Millycent Aoko'>
+                    </div>
+
+                    <div class='Dleadership-names third-leadership-aside'>
                         <span>Millycent Devinah Aoko</span><br>
                         <span>Secretary</span>
                     </div>
@@ -244,6 +245,27 @@
     </section>
 @endsection
 
+
+@section('our-leadership-modal-pop-up')
+  <section class='Leadership-outer-general-modal-popup'>
+    <div class='Leadership-inner-general-modal-popup'>
+
+      <div class='close-leadership-modal-pop-up'>
+        <i class='fas fa-window-close'></i>
+      </div>
+
+      <div class='Leadership-inner-modal-popup'>
+        <div class='our-leadership-modal-bio-heading'>
+            <span class='modal-title'></span>
+        </div>
+
+        <div class='our-leadership-modal-bio-details'>
+            <p class='modal-text'></p>
+        </div>
+      </div>
+    </div>
+  </section>
+@endsection
 
 
 @section('ourpartners')
