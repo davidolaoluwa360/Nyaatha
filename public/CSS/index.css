@@ -1,168 +1,165 @@
 /* rgb(45, 12, 178) */
 
 /* ====================== who we are styling ============================================= */
-.who-we-are-inner-container-selector{
+.who-we-are-inner-container-selector {
     margin-top: 2em;
     margin-bottom: 1em;
 }
 
-.devision-header-header-general{
+.devision-header-header-general {
     color: rgb(45, 12, 178);
     font-size: 1.2rem;
     font-weight: 700;
 }
 
-.our-mission-vission-header-text{
-    margin-bottom: .5em;
+.our-mission-vission-header-text {
+    margin-bottom: 0.5em;
 }
 
-.who-we-are-Dheader-selectors{
+.who-we-are-Dheader-selectors {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.who-we-are-Dheader-selectors h1{
+.who-we-are-Dheader-selectors h1 {
     color: rgb(45, 12, 178);
 }
 
-.who-we-are-inner-container-selector{
+.who-we-are-inner-container-selector {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.who-we-are-left-container{
+.who-we-are-left-container {
     width: 45%;
     max-width: 950px;
 }
 
-.who-we-are-left-container img{
+.who-we-are-left-container img {
     width: 100%;
 }
 
-.who-we-are-right-container{
+.who-we-are-right-container {
     width: 45%;
     max-width: 950%;
 }
 
-.who-we-are-right-container img{
+.who-we-are-right-container img {
     width: 100%;
 }
 
-
- .who-we-are-home-general-outer-container{
-        margin-top: 12em;
+.who-we-are-home-general-outer-container {
+    margin-top: 12em;
 }
 
 /* ==================================== who we are media query ======================== */
-@media screen and (max-width:950px){
-    .who-we-are-inner-container-selector{
+@media screen and (max-width: 950px) {
+    .who-we-are-inner-container-selector {
         flex-direction: column;
     }
 
-    .who-we-are-inner-container-selector{
+    .who-we-are-inner-container-selector {
         flex-direction: column;
         align-items: center;
     }
 
-    .who-we-are-left-container{
+    .who-we-are-left-container {
         width: 97%;
         max-width: 1300px;
     }
 
-    .who-we-are-right-container{
+    .who-we-are-right-container {
         width: 97%;
         max-width: 1300px;
     }
 }
 
-@media screen and (max-width:970px){
-     .who-we-are-home-general-outer-container{
+@media screen and (max-width: 970px) {
+    .who-we-are-home-general-outer-container {
         margin-top: 18em;
     }
 }
 /* ============================================================================================ */
 
-
 /* ==================================== vision-mission-aims styling ===================================== */
-.our-mission-vission-inner-container{
+.our-mission-vission-inner-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.our-mission-vission-left-container-selector{
+.our-mission-vission-left-container-selector {
     width: 45%;
     max-width: 950px;
 }
 
-.our-mission-vission-left-container-selector img{
+.our-mission-vission-left-container-selector img {
     width: 100%;
 }
 
-.our-mission-vission-right-container-selector{
+.our-mission-vission-right-container-selector {
     width: 45%;
     max-width: 950px;
 }
 
-.our-mission-vission-right-container-selector img{
+.our-mission-vission-right-container-selector img {
     width: 100%;
 }
 
-.Dvission-vision-selector{
+.Dvission-vision-selector {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.Dvission-vision-selector div{
+.Dvission-vision-selector div {
     width: 46%;
 }
 
-.Dvission-vision-left-selector ul{
+.Dvission-vision-left-selector ul {
     list-style-type: disc;
 }
 
-.Dvission-vision-select{
+.Dvission-vision-select {
     background-color: white;
-    margin: .5em 0;
-    padding: .5em .5em;
+    margin: 0.5em 0;
+    padding: 0.5em 0.5em;
 }
 
-.devision-header-header{
+.devision-header-header {
     color: rgb(45, 12, 178);
 }
 
 /* ============================ Our vission Mission media query ============================ ===*/
-@media screen and (max-width: 950px){
-    .our-mission-vission-inner-container{
+@media screen and (max-width: 950px) {
+    .our-mission-vission-inner-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .our-mission-vission-left-container-selector{
+    .our-mission-vission-left-container-selector {
         width: 97%;
         max-width: 1300px;
     }
 
-    .our-mission-vission-right-container-selector{
+    .our-mission-vission-right-container-selector {
         width: 97%;
         max-width: 1300px;
     }
-
 }
 
-@media screen and (max-width: 475px){
-    .Dvission-vision-selector{
+@media screen and (max-width: 475px) {
+    .Dvission-vision-selector {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Dvission-vision-selector div{
+    .Dvission-vision-selector div {
         width: 85%;
     }
 }
@@ -170,19 +167,19 @@
 /* ======================================================================================================= */
 
 /* =========================================== program statics data ======================================= */
-.our-program-statistics-data-outer-general-container{
+.our-program-statistics-data-outer-general-container {
     background-color: rgb(245, 245, 245);
     margin-top: 3em;
     width: 100%;
 }
 
-.our-program-statisctics-data-inner-container{
+.our-program-statisctics-data-inner-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.our-program-data-stats-header-selector{
+.our-program-data-stats-header-selector {
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -190,13 +187,13 @@
     margin: 1.5em 0em;
 }
 
-.program-data-stats-header-bold{
+.program-data-stats-header-bold {
     color: rgb(45, 12, 178);
     font-weight: 700;
     font-size: 1.5rem;
 }
 
-.Dprogram-data{
+.Dprogram-data {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -204,7 +201,7 @@
     align-items: center;
 }
 
-.Dprogram-data aside{
+.Dprogram-data aside {
     width: 23%;
     display: flex;
     flex-direction: column;
@@ -216,42 +213,42 @@
     max-height: 100vh;
 }
 
-.number-bold{
+.number-bold {
     font-weight: 700;
 }
 
-.Dprogram-data .fas{
+.Dprogram-data .fas {
     font-weight: 700;
     font-size: 2.5rem;
     color: rgb(45, 12, 178);
 }
 
 /* ================================================ Our program media query ============================= */
-@media screen and (max-width: 850px){
-    .Dprogram-data{
+@media screen and (max-width: 850px) {
+    .Dprogram-data {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Dprogram-data aside{
+    .Dprogram-data aside {
         width: 60%;
         height: 25vh;
-        margin-top: .9em;
+        margin-top: 0.9em;
     }
 
-    .our-program-data-stats-header-selector{
+    .our-program-data-stats-header-selector {
         text-align: center;
     }
 }
 /* ====================================================================================================== */
 
 /* =========================================== Nyaatha Image Gallery =================================== */
-.nyaatha-image-pouter-general-container{
+.nyaatha-image-pouter-general-container {
     margin-top: 3em;
 }
 
-.nyaatha-image-gallery-header{
+.nyaatha-image-gallery-header {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -259,13 +256,13 @@
     text-align: center;
 }
 
-.DGallery{
+.DGallery {
     display: flex;
     justify-content: center;
 }
 
-.Dgallery-inner-container{
-    width: 77%;
+.Dgallery-inner-container {
+    width: 80%;
     max-width: 1400px;
     display: flex;
     /* justify-content: space-between; */
@@ -274,62 +271,68 @@
     margin-bottom: 1.5em;
 }
 
-.Dgallery-inner-container aside{
+.Dgallery-inner-container aside {
     width: 32%;
-    margin-top: .5em;
-    margin-right: .6em;
+    margin-top: 0.5em;
+    margin-right: 0.6em;
 }
 
-.Dgallery-inner-container aside img{
+.Dgallery-inner-container aside img {
     width: 100%;
     height: 45vh;
     max-height: 60vh;
 }
 
-.nyaatha-gallery-filter button{
+.nyaatha-gallery-filter button {
     color: black;
     background-color: white;
-    padding: .7em 2em;
+    padding: 0.7em 2em;
     border: none;
-    margin-left: .5em;
-    margin-top: .5em;
+    margin-left: 0.5em;
+    margin-top: 0.5em;
 }
 
 .nyaatha-gallery-filter button:hover,
-button:focus{
+button:focus {
     background-color: rgb(45, 12, 178);
     color: white;
 }
 
-.nyaatha-gallery-filter .showall-filter{
+.nyaatha-gallery-filter .showall-filter {
     background-color: rgb(45, 12, 178);
     color: white;
 }
 /* ============================================ Gallery media query ============================ */
-@media screen and (max-width: 1100px){
-    .Dgallery-inner-container{
+@media screen and (max-width: 1100px) {
+    .Dgallery-inner-container {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Dgallery-inner-container aside{
-        width: 77%;
+    .Dgallery-inner-container aside {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Dgallery-inner-container aside {
+        width: 98%;
     }
 }
 /* ================================================================================================= */
 /* =============================================================================================== */
 
 /* ====================================== Our Leadership ========================================= */
-.our-leadership-outer-general-container{
+.our-leadership-outer-general-container {
     margin-top: 4em;
 }
 
-.our-leadership-header-selector{
+.our-leadership-header-selector {
     text-align: center;
 }
 
-.our-leadership-general-inner-container{
+.our-leadership-general-inner-container {
     display: flex;
     justify-content: center;
     margin-top: 2.5em;
@@ -343,22 +346,23 @@ button:focus{
     flex-wrap: wrap;
 }
 
-.Dleadership aside{
+.Dleadership aside {
     width: 30%;
+    max-width: 97%;
     background-color: rgb(245, 245, 245);
 }
 
-.Dleadership aside .our-leadership-images{
+.Dleadership aside .our-leadership-images {
     width: 95%;
 }
 
-.Dleadership aside img{
+.Dleadership aside img {
     width: 100%;
     height: 50vh;
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 
-.Dleadership aside .Dleadership-names{
+.Dleadership aside .Dleadership-names {
     background-color: rgb(45, 12, 178);
     color: white;
     width: 100%;
@@ -367,7 +371,7 @@ button:focus{
     font-weight: 700;
 }
 
-.team-image{
+.team-image {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -375,23 +379,28 @@ button:focus{
     flex-wrap: wrap;
 }
 /* ============================ Our leadership media query ===================================== */
-@media screen and (max-width: 1020px){
-    .Dleadership{
-        flex-direction:column;
+@media screen and (max-width: 1020px) {
+    .Dleadership {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Dleadership aside{
+    .Dleadership aside {
         width: 75%;
         margin-top: 1.5em;
     }
 }
 
+@media screen and (max-width: 450px) {
+    .Dleadership aside {
+        width: 97%;
+    }
+}
 /* ================================================================================================= */
 
 /* ============================== our leadership modal pop up =============================== */
-.Leadership-outer-general-modal-popup{
+.Leadership-outer-general-modal-popup {
     position: fixed;
     top: 0;
     background-color: transparent;
@@ -403,54 +412,65 @@ button:focus{
     z-index: 200;
 }
 
-.Leadership-outer-general-modal-popup{
+.Leadership-outer-general-modal-popup {
     display: none;
 }
 
-.Leadership-inner-general-modal-popup{
+.Leadership-inner-general-modal-popup {
     background-color: white;
-    width: 60%;
-    padding-bottom: .9em;
+    width: 70%;
+    padding-bottom: 0.9em;
 }
 
-.fa-window-close{
+.fa-window-close {
     float: right;
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
 }
 
-.Leadership-inner-modal-popup{
+.Leadership-inner-modal-popup {
     background-color: rgba(235, 235, 235);
 }
 
-.close-leadership-modal-pop-up{
+.close-leadership-modal-pop-up {
     height: 5vh;
     width: 100%;
+}
+
+.our-leadership-modal-bio-heading {
+    font-weight: bolder;
+    margin-bottom: 0.5em;
+}
+/* ========================= leadership modal pop up media query =========================== */
+@media screen and (max-width: 750px) {
+    .Leadership-inner-general-modal-popup {
+        width: 95%;
+    }
 }
 /* ========================================================================================= */
 
 /* ===================================== Our partners ============================================ */
 
-.Our-partners-outer-general-container{
+.Our-partners-outer-general-container {
     margin-top: 3em;
     background-color: rgb(245, 245, 245);
 }
 
-.Our-partners-header-text-selector{
+.Our-partners-header-text-selector {
     text-align: center;
     margin-top: 1em;
 }
 
-.Our-partners-inner-general-container{
+.Our-partners-inner-general-container {
     margin-top: 3em;
     margin-bottom: 4em;
 }
 
-.Our-partners-inner-general-container .Dpartners{
+.Our-partners-inner-general-container .Dpartners {
     display: flex;
     justify-content: space-between;
 }
 
-.Our-partners-inner-general-container .Dpartners div{
+.Our-partners-inner-general-container .Dpartners div {
     width: 22%;
     height: 20vh;
     display: flex;
@@ -460,55 +480,54 @@ button:focus{
     background-color: white;
     font-weight: bolder;
     font-size: 1.5rem;
-    margin-left: .5em;
-    margin-right: .5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     text-align: center;
 }
 
 /* ============== ========= Our partners media query ================= ===================== */
-@media screen and (max-width: 960px){
-    .Our-partners-inner-general-container .Dpartners{
+@media screen and (max-width: 960px) {
+    .Our-partners-inner-general-container .Dpartners {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .Our-partners-inner-general-container .Dpartners div{
+    .Our-partners-inner-general-container .Dpartners div {
         width: 60%;
         height: 25vh;
-        margin-top: .9em;
+        margin-top: 0.9em;
     }
 }
 /* =========================================================================================== */
 /* =============================================================================================== */
 
-
 /* ================================= contact us =============================================== */
-.contact-us-outer-general-container{
+.contact-us-outer-general-container {
     margin-top: 5em;
 }
 
-.contact-us-header-text-selector{
+.contact-us-header-text-selector {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 
-.contact-us-text-color{
+.contact-us-text-color {
     font-weight: 700;
     font-size: 2rem;
     color: rgb(45, 12, 178);
 }
 
-.contact-us-general-inner-container-selector{
+.contact-us-general-inner-container-selector {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 2em;
 }
 
-.left-contact-us{
+.left-contact-us {
     width: 40%;
     background-color: white;
     display: flex;
@@ -516,7 +535,7 @@ button:focus{
     justify-content: center;
 }
 
-.left-contact-us aside{
+.left-contact-us aside {
     display: flex;
     flex-direction: column;
     margin-left: auto;
@@ -524,25 +543,25 @@ button:focus{
     width: 50%;
 }
 
-.left-container-title{
-    margin-left: .5em;
+.left-container-title {
+    margin-left: 0.5em;
 }
 
-.left-contact-us aside .fas{
+.left-contact-us aside .fas {
     color: rgb(45, 12, 178);
 }
 
-.right-contact-us{
+.right-contact-us {
     width: 50%;
     background: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 1.5em .5em;
+    padding: 1.5em 0.5em;
 }
 
-.right-contact-us form input[type='submit']{
+.right-contact-us form input[type="submit"] {
     color: white;
     background-color: rgb(45, 12, 178);
     width: 36vw;
@@ -550,59 +569,59 @@ button:focus{
     border: none;
 }
 
-.right-contact-us form .subject{
+.right-contact-us form .subject {
     border-color: rgb(45, 12, 178);
     width: 36vw;
     height: 6vh;
 }
 
-.right-contact-us form .align-together{
+.right-contact-us form .align-together {
     height: 6vh;
     border-color: rgb(45, 12, 178);
     width: 18vw;
 }
 
 .right-contact-us form input:focus,
-textarea:focus{
+textarea:focus {
     border-color: rgb(45, 12, 178);
 }
 
-.right-contact-us form textarea{
+.right-contact-us form textarea {
     border-color: rgb(45, 12, 178);
     width: 36vw;
     height: 12vh;
 }
 /* ==================================== contact us media query ====================================== */
-@media screen and (max-width: 950px){
-    .contact-us-general-inner-container-selector{
+@media screen and (max-width: 950px) {
+    .contact-us-general-inner-container-selector {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .right-contact-us{
+    .right-contact-us {
         width: 95%;
         margin-top: 1.2em;
     }
 
-    .left-contact-us{
+    .left-contact-us {
         width: 95%;
-        padding: 1.5em .7em;
+        padding: 1.5em 0.7em;
     }
 
-    .right-contact-us form textarea{
+    .right-contact-us form textarea {
         border-color: rgb(45, 12, 178);
         width: 68vw;
         height: 15vh;
     }
 
-    .right-contact-us form .subject{
+    .right-contact-us form .subject {
         border-color: rgb(45, 12, 178);
         width: 68vw;
         height: 8vh;
     }
 
-    .right-contact-us form input[type='submit']{
+    .right-contact-us form input[type="submit"] {
         color: white;
         background-color: rgb(45, 12, 178);
         width: 68vw;
@@ -610,16 +629,14 @@ textarea:focus{
         border: none;
     }
 
-    .right-contact-us form .align-together{
+    .right-contact-us form .align-together {
         height: 6vh;
         border-color: rgb(45, 12, 178);
         width: calc(68vw / 2);
     }
 
-    .left-contact-us aside{
+    .left-contact-us aside {
         width: 60%;
     }
-
-
 }
 /* ================================================================================================== */

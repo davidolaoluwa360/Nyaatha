@@ -2,11 +2,11 @@
     blue: rgb(45, 12, 178)
     charcoal like: rgb(76, 76, 76)   */
 
-body{
+body {
     background-color: rgb(245, 245, 245);
 }
 
-.ourprojectmainheaderselector{
+.ourprojectmainheaderselector {
     background-color: rgb(76, 76, 76);
     color: white;
     display: flex;
@@ -18,33 +18,33 @@ body{
     height: 40vh;
 }
 
-.ourprojectinnergeneralcontainer{
+.ourprojectinnergeneralcontainer {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 3em;
 }
 
-.ourprojectinnergeneralcontainer h1{
+.ourprojectinnergeneralcontainer h1 {
     color: rgb(45, 12, 178);
     text-align: center;
 }
 
-.ourprojectoutergeneralcontainer{
+.ourprojectoutergeneralcontainer {
     margin-top: 10em;
 }
 
-.ourprojectinnergeneralcontainer .farmingdescription{
+.ourprojectinnergeneralcontainer .farmingdescription {
     width: 45%;
     background-color: rgba(245, 245, 245);
-    padding: .9em .9em;
+    padding: 0.9em 0.9em;
     margin-top: 1em;
 }
 
-.ourprojectinnergeneralcontainer .farmingimage{
+.ourprojectinnergeneralcontainer .farmingimage {
     background-color: rgba(245, 245, 245);
     width: 45%;
-    padding: .9em .9em;
+    padding: 0.9em 0.9em;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -54,92 +54,92 @@ body{
 table,
 tr,
 th,
-td{
+td {
     border: 1px solid black;
     font-style: dashed;
 }
 
-.ourprojectinnergeneralcontainer .farming-image-container-select aside{
+.ourprojectinnergeneralcontainer .farming-image-container-select aside {
     width: 45%;
-    margin-top: .5em;
+    margin-top: 0.5em;
 }
 
-.ourprojectinnergeneralcontainer .farming-image-container-select img{
+.ourprojectinnergeneralcontainer .farming-image-container-select img {
     width: 100%;
 }
 
-.ourprojectinnergeneralcontainer .poultry-image-select aside{
+.ourprojectinnergeneralcontainer .poultry-image-select aside {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.ourprojectinnergeneralcontainer .poultry-image-select aside img{
+.ourprojectinnergeneralcontainer .poultry-image-select aside img {
     width: 100%;
 }
 
-.projectbolderfontlarge{
+.projectbolderfontlarge {
     font-weight: bolder;
     font-size: 2em;
 }
 
-.projectnormalfontmedium{
+.projectnormalfontmedium {
     font-size: 1.2em;
 }
 
-.project-Donation-general-container{
-    display:flex;
+.project-Donation-general-container {
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
 }
 
-.project-donate-fonts{
+.project-donate-fonts {
     background-color: rgb(45, 12, 178);
     color: white;
     padding: 1.2em 1.2em;
     border-radius: 60px;
-    text-align:center;
+    text-align: center;
     font-size: 1.5rem;
 }
 
-.project-pop-up{
+.project-pop-up {
     font-weight: bolder;
     cursor: pointer;
 }
 
-.project-pop-up:hover{
+.project-pop-up:hover {
     color: rgba(70, 70, 70);
 }
 
 /* ========================================== Project media query ============================= */
-@media screen and (max-width: 950px){
-    .ourprojectmainheaderselector{
+@media screen and (max-width: 950px) {
+    .ourprojectmainheaderselector {
         text-align: center;
     }
 
-    .ourprojectinnergeneralcontainer{
+    .ourprojectinnergeneralcontainer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .ourprojectinnergeneralcontainer .farmingdescription{
+    .ourprojectinnergeneralcontainer .farmingdescription {
         margin-top: 1em;
-        width : 85%;
-    }
-
-    .ourprojectinnergeneralcontainer .farmingimage{
         width: 85%;
     }
-    .ourprojectinnergeneralcontainer .poultry-image-select aside{
+
+    .ourprojectinnergeneralcontainer .farmingimage {
+        width: 85%;
+    }
+    .ourprojectinnergeneralcontainer .poultry-image-select aside {
         text-align: center;
     }
 }
 /* ============================================================================================ */
 
 /* ============================ Modal-pop-project ============================================ */
-.project-donate-general-container-selector{
+.project-donate-general-container-selector {
     background-color: transparent;
     display: flex;
     justify-content: center;
@@ -151,31 +151,94 @@ td{
     height: 100vh;
 }
 
-.project-donate-general-container-selector{
+.project-donate-general-container-selector {
     display: none;
 }
 
-.project-donate-inner-container-selector{
+.project-donate-inner-container-selector {
     background-color: rgba(245, 245, 245);
     width: 45%;
 }
 
-.close-project-window-tap{
+.close-project-window-tap {
     background-color: rgb(45, 12, 178);
     width: 100%;
     display: flex;
 }
 
-.close-project-window-tap .fa-window-close{
+.close-project-window-tap .fa-window-close {
     margin-left: auto;
     font-size: 1.5rem;
+    color: white;
 }
 
-.project-donate-post-modal-popup{
-    padding: .4em .7em;
+.project-donate-post-modal-popup {
+    padding: 0.4em 0.7em;
 }
 
-.list-group-item{
+.list-group-item {
     font-weight: bolder;
+}
+
+.download-budget {
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 1.5em 1.5em;
+}
+
+.view-budget {
+    text-decoration: none;
+    color: white;
+    background: blue;
+    padding: 1.5em 1.5em;
+    margin-left: 0.5em;
+}
+
+.download-budject-container {
+    display: none;
+}
+
+.view-budget:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.download-budget:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+/* ======================= project modal pop-up media query ============================= */
+@media screen and (max-width: 1100px) {
+    .project-budget-table {
+        display: none;
+    }
+
+    .download-budject-container {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .project-donate-inner-container-selector {
+        width: 80%;
+    }
+    .project-budget-table {
+        display: inline-block;
+    }
+
+    .download-budject-container {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .project-donate-inner-container-selector {
+        width: 80%;
+    }
+    .project-budget-table {
+        display: none;
+    }
+    .download-budject-container {
+        display: flex;
+    }
 }
 /* =========================================================================================== */
