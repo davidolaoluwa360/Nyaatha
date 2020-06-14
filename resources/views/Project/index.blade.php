@@ -178,7 +178,7 @@
                     download='Nyaatha-project-budject'>Download Budget</a>
                 <a href="{{URL::to('https://docs.google.com/document/d/15bHVBZZzfZrpOXGaqQSJnVG_WNca3Aod477IJy-qHDI/edit?usp=sharing')}}"
                     class='view-budget' target='_blank' rel='noreferrer noopener'>View Budget</a>
-            </div>
+            </div>q
             <h3>Financing the Project</h3>
             <p>The Fund currently does not have the money but is looking for well-wishers or a soft
                 loan to fund the project.</p>
